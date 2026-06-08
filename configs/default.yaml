@@ -1,0 +1,29 @@
+# Default configuration for training the character-level Transformer.
+# Sized to train in a reasonable time on CPU while still producing
+# coherent Shakespeare-style text.
+
+out_dir: checkpoints
+
+model:
+  block_size: 128   # context length in characters
+  n_layer: 4
+  n_head: 4
+  n_embd: 128
+  dropout: 0.1
+
+train:
+  batch_size: 64
+  max_steps: 5000
+  eval_interval: 250
+  eval_iters: 200
+  learning_rate: 0.0003
+  weight_decay: 0.1
+  warmup_steps: 200
+  min_lr_ratio: 0.1
+  grad_clip: 1.0
+  seed: 1337
+  device: auto
+
+data:
+  data_path: data/input.txt
+  val_fraction: 0.1
