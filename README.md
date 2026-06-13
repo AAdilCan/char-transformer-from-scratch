@@ -15,9 +15,9 @@ Shakespeare corpus and generates Shakespeare-flavored text.
 Work in progress — building over the week:
 
 - [x] Day 1 — Project scaffold, config + logging, data download & exploration
-- [ ] Day 2 — Char tokenizer, dataset, batching
-- [ ] Day 3 — Attention, Transformer blocks, GPT model
-- [ ] Day 4 — Training loop, LR schedule, checkpointing
+- [x] Day 2 — Char tokenizer, dataset, batching
+- [x] Day 3 — Attention, Transformer blocks, GPT model
+- [x] Day 4 — Training loop, LR schedule, checkpointing
 - [ ] Day 5 — Evaluation, loss curves, sampling, perplexity
 - [ ] Day 6 — Test suite, edge cases, refactor
 - [ ] Day 7 — Documentation, polished results
