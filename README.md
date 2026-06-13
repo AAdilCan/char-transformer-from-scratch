@@ -19,7 +19,7 @@ Work in progress — building over the week:
 - [x] Day 3 — Attention, Transformer blocks, GPT model
 - [x] Day 4 — Training loop, LR schedule, checkpointing
 - [x] Day 5 — Evaluation, loss curves, sampling, perplexity
-- [ ] Day 6 — Test suite, edge cases, refactor
+- [x] Day 6 — Test suite, edge cases, refactor
 - [ ] Day 7 — Documentation, polished results
 
 ## Quick start
